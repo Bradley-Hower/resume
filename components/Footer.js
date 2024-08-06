@@ -32,19 +32,20 @@ export const Contact = ({ title, description, buttons }) => {
 
 export const Footer = () => {
 	return (
-		<footer className="bg-secondary text-center py-2 px-5">
-			<div className="container text-muted">
-				<small>&copy; 2021 {" "}
-					<Link href="https://github.com/hashirshoaeb">
-						<a>hashirshoaeb</a>
-					</Link>
-					. Open sourced with love under {" "}
-					<Link href="https://github.com/hashirshoaeb/portfolio/blob/main/LICENSE">
-						<a>MIT</a>
-					</Link>
-					{" "} License
-				</small>
-			</div>
+		<footer className="bg-secondary py-2">
+				<div className="container text-muted">
+					<small>{" "}
+						Forked from
+						<Link href="https://github.com/hashirshoaeb">
+							<a> hashirshoaeb</a>
+						</Link>
+						. Open sourced under {" "}
+						<Link href="https://github.com/hashirshoaeb/portfolio/blob/main/LICENSE">
+							<a>MIT</a>
+						</Link>
+						{" "} License
+					</small>
+				</div>
 		</footer>
 	);
 }

@@ -1,72 +1,91 @@
 
 import profile from './profile.png';
-import { faAppStore, faGithub, faGooglePlay } from '@fortawesome/free-brands-svg-icons';
-import { } from '@fortawesome/free-solid-svg-icons';
+import { faGithub, faPython, faJs } from '@fortawesome/free-brands-svg-icons';
+import { faSackDollar } from '@fortawesome/free-solid-svg-icons';
 
 export const navigation = {
-  name: "Hashir",
+  name: "BH",
   links: [
     {
-      title: "About",
-      link: "#about",
+      title: "Resume",
+      link: "/resume",
     },
     {
-      title: "Projects",
-      link: "#projects",
+      title: "GitHub",
+      link: "https://github.com/Bradley-Hower"
     },
     {
-      title: "Contact",
-      link: "#contact",
-    },
-    {
-      title: "Links",
-      link: "/links",
+      title: "LinkedIn",
+      link: "https://www.linkedin.com/in/bradley-m-hower/",
     },
     {
       title: "Blog",
-      link: "https://medium.com/@hashirshoaeb",
+      link: "/blog",
     }
   ],
 }
+
+export const resume = {
+  title: "Resume",
+  link: "/resume.pdf",
+  isPrimary: false,
+}
+
 export const intro = {
-  title: "Hey, I'm Hashir",
-  description: "A Computer Engineer creating mobile apps and static websites.",
+  greeting: "Good day.",
+  title: "I am Bradley Hower.",
+  description: "Web applications developer.",
+  description2: "A pragmatic programmer.",
+  description3: "Your best employee.",
   image: profile.src,
   buttons: [
     {
-      title: "Contact Me",
-      link: "#contact",
-      isPrimary: true,
-    },
-    {
-      title: "Resume",
-      link: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+      title: "Resume ↗",
+      link: "/resume.pdf",
       isPrimary: false,
     },
   ],
 }
 
 export const about = {
-  title: "Who I am",
+  title: "About",
   description: [
-    "I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering. I kick started my professional career as a mobile application developer working remotely for a UK based startup — Lessgo.",
-    "The tech industry is ever-evolving and I love being able to grow with it, while continually solidifying the fundamentals. I opensource my code from a place of empathy - for future developers, teammates, users, and with accessibility in mind. I also love joining communities, helping and mentoring new developers, and supporting organizations to promote diversity in tech. I’m sharing my programming journey on instagram, helping people who are just getting into the space of programming.",
-    "When I’m not programming, I focus on my hobbies which are: diary writing, doodling, meeting people and growing my network.",
+    'During my previous work in mortgages, I used to get questions from clients and my friends asking "Should I invest in real estate?" or likewise, "Should I buy or rent?" And I did not know the answer. Being that I like numbers, I decided to build a calculator. This calculator would determine which path gave the best yield, and thus, which choice was objectively better. It was complicated. Yet, I really enjoyed this type of work. Moreover, I had previously given much thought concerning working in tech. This is what led me to make the leap into coding. Since then, I have built some fun projects. The project I am most proud of is Leap the Wall, a site that allows a user to search Baidu in English. The kind of company I am looking to work for is a company with a healthy culture and one which will allow me to showcase my creative skills.',
   ],
 }
 
 export const work = {
-  title: "What I do",
+  title: "Skills",
   cards: [
     {
-      title: "Mobile App Development",
-      description: "I create pixel perfect iOS and Andriod apps using Flutter.",
-      icons: null,
+      title: " Javascript",
+      description: " Full-stack Development. Creating novel applications with the latest technology.",
+      icons: [
+        {
+          icon: faJs,
+          link: [null]
+        },
+      ]
     },
     {
-      title: "Web Development",
-      description: "I create responsive static websites using Reactjs.",
-      icons: null,
+      title: " Python",
+      description: "Data processing language of choice.",
+      icons: [
+        {
+          icon: faPython,
+          link: [null]
+        },
+      ]
+    },
+    {
+      title: " Sales",
+      description: "Sold mortgages. Worked at tech startup helping build their sales development infrustructure.",
+      icons: [
+        {
+          icon: faSackDollar,
+          link: [null]
+        },
+      ]
     }
   ],
 }
@@ -75,95 +94,44 @@ export const projects = {
   title: "Projects",
   cards: [
     {
-      title: "StarBook",
-      description: "A digital diary and mood tracking app that helps you in keeping track of your mood and productivity throughout the month/year.",
+      title: " Leap the Wall",
+      description: "Web app workaround to use the Baidu search engine, in English.",
       icons: [
         {
-          icon: faAppStore,
-          link: "https://apps.apple.com/us/app/starbook-journal-ai-diary/id1552418289",
-        },
-        {
           icon: faGithub,
-          link: "https://github.com/hashirshoaeb/star_book",
+          link: ["https://github.com/Bradley-Hower/leap-the-wall-frontend"],
         },
       ]
     },
     {
-      title: "QuranTalk",
-      description: "An emotional well being and mental health app. The app helps people to navigate their emotions in the light of the Quran.",
+      title: " Rezzies",
+      description: 'Rezzies is a collectible digital asset game targeted towards children. Composed of digital assets, they are limited to "go exploring" once per day to find fossils, or "Rezzies".',
       icons: [
         {
-          icon: faAppStore,
-          link: "https://apps.apple.com/us/app/qurantalk/id1563425149",
-        },
-        {
-          icon: faGooglePlay,
-          link: "https://play.google.com/store/apps/details?id=com.ayahemotion.quran_talk",
+          icon: faGithub,
+          link: ["https://github.com/Bradley-Hower/rezzies"],
         },
       ]
     },
     {
-      title: "Portfolio",
-      description: "A portfolio website template that helps you showcase your work, projects and skills as a software developer or freelancer.",
+      title: " Prismatic Puzzle ",
+      description: "Team project. Based on the game Chromacube, we developed a Python application using the Pygame library.",
       icons: [
         {
           icon: faGithub,
-          link: "https://github.com/hashirshoaeb/portfolio",
+          link: ["https://github.com/Alpha-Code-Collective/prismatic-puzzle"],
         },
       ]
     },
   ],
 }
 
-export const contact = {
-  title: "Get in touch",
-  description: "Coffee Chat! Please do not hesitate to schedule a meeting. Alternatively, feel free to reach out directly by email at hashirshoaeb@gmail.com.",
-  buttons: [
-    {
-      title: "Email Me",
-      link: "mailto:hashirshoaeb@gmail.com",
-      isPrimary: true,
-    },
-    {
-      title: "Schedule Meeting",
-      link: "https://topmate.io/hashirshoaeb",
-      isPrimary: false,
-    },
-  ]
-}
-
 // SEARCH ENGINE 
 export const SEO = {
   // 50 - 60 char  
-  title: "Hashir Shoaib | Computer Engineer | Flutter | Reactjs developer",
-  description: "I create mobile apps and static websites. I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering.",
+  title: "Bradley Hower",
+  description: "Junior Software Developer — Creating novel applications with the latest technology. Technical background. Strong ability to take ownership while working within a team to solve technical problems via agile techniques.",
   image: profile.src,
 }
 
-export const links = {
-  image: profile.src,
-  title: "@hashirshoaeb",
-  description: "Computer Engineer | Flutter | Reactjs Developer",
-  cards: [
-    {
-      title: "My website",
-      link: "https://hashirshoaeb.com/",
-    },
-    {
-      title: "QuranTalk App",
-      link: "https://www.qurantalk.app/",
-    },
-    {
-      title: "StarBook App",
-      link: "https://starbook.dev/",
-    },
-    {
-      title: "My GitHub",
-      link: "https://github.com/hashirshoaeb/",
-    },
-    {
-      title: "My LinkedIn",
-      link: "https://www.linkedin.com/in/hashirshoaeb/",
-    },
-  ]
-}
+
