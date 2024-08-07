@@ -15,11 +15,11 @@
     "build": "next build",
     "dev": "next dev",
     "start": "next start",
-    "export": "next export",
     "predeploy": "npm run build && npm run export && touch ./out/.nojekyll",
     "deploy": "npm run custom-domain && node scripts/pages.js hashirshoaeb master",
     "custom-domain": "node scripts/cname.js hashirshoaeb.com www.hashirshoaeb.com",
-    "lint": "next lint"
+    "lint": "next lint",
+    "export": "next export"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.0",
