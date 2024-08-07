@@ -26,13 +26,12 @@ console.warn(
 )
 
 const nextConfig = {
-  output: "export",
   reactStrictMode: true,
   basePath: basePath,
   assetPrefix: basePath,
   publicRuntimeConfig: {
     basePath: basePath,
-  }
+  },
 }
 
 module.exports = nextConfig
