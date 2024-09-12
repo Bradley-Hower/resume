@@ -1,7 +1,6 @@
 
 import profile from './profile.png';
-import { faGithub, faPython, faJs } from '@fortawesome/free-brands-svg-icons';
-import { faSackDollar } from '@fortawesome/free-solid-svg-icons';
+import 'react-icons/si';
 
 export const navigation = {
   name: "BH",
@@ -62,7 +61,7 @@ export const work = {
       description: " Full-stack Development. Creating novel applications with the latest technology.",
       icons: [
         {
-          icon: faJs,
+          icon: 'SiJavascript',
           link: [null]
         },
       ]
@@ -72,7 +71,125 @@ export const work = {
       description: "Data processing language of choice.",
       icons: [
         {
-          icon: faPython,
+          icon: 'SiPython',
+          link: [null]
+        },
+      ]
+    },
+    {
+      title: " Git",
+      description: "Distributed version control.",
+      icons: [
+        {
+          icon: 'SiGit',
+          link: [null]
+        },
+      ]
+    },
+    {
+      title: " Bootstrap",
+      description: "Front-end framework.",
+      icons: [
+        {
+          icon: 'SiBootstrap',
+          link: [null]
+        },
+      ]
+    },
+    {
+      title: " React",
+      description: "Front-end Javascript library.",
+      icons: [
+        {
+          icon: 'SiReact',
+          link: [null]
+        },
+      ]
+    },
+    {
+      title: " Google Cloud Platform",
+      description: "Worked with Google CLI and Google Translate API.",
+      icons: [
+        {
+          icon: 'SiGoogle',
+          link: [null]
+        },
+      ]
+    },
+    {
+      title: " Docker",
+      description: "Containerization for version specific dependecy issues or issue avoidance.",
+      icons: [
+        {
+          icon: 'SiDocker',
+          link: [null]
+        },
+      ]
+    },
+    {
+      title: " ChatGPT",
+      description: "Worked with ChatGPT API. Summary: caution needs to be applied when considering use case.",
+      icons: [
+        {
+          link: [null]
+        },
+      ]
+    },
+    {
+      title: " SQL & NoSQL",
+      description: "Relational and non-relational databases. A couple of my projects use NoSQL.",
+      icons: [
+        {
+          link: [null]
+        },
+      ]
+    },
+    {
+      title: " Django",
+      description: "Clever web framework for Python.",
+      icons: [
+        {
+          icon: 'SiDjango',
+          link: [null]
+        },
+      ]
+    },
+    {
+      title: " Jupyter Notebook",
+      description: "Present and run code in the same page. Useful tool for datascience.",
+      icons: [
+        {
+          icon: 'SiJupyter',
+          link: [null]
+        },
+      ]
+    },
+    {
+      title: " NumPy & Seaborn",
+      description: "Datascience library tools which offer a lot of flexibility to run analyses. Seaborn adds some additional features for data visualization",
+      icons: [
+        {
+          icon: 'SiNumpy',
+          link: [null]
+        },
+      ]
+    },
+    {
+      title: " Pandas",
+      description: "Python library which offers some tools for data analysis.",
+      icons: [
+        {
+          icon: 'SiPandas',
+          link: [null]
+        },
+      ]
+    },
+    {
+      title: " Tailwind CSS",
+      description: "CSS framework. Offers more flexability than predefined frameworks.",
+      icons: [
+        {
+          icon: 'SiTailwindcss',
           link: [null]
         },
       ]
@@ -82,7 +199,6 @@ export const work = {
       description: "Sold mortgages. Worked at tech startup helping build their sales development infrustructure.",
       icons: [
         {
-          icon: faSackDollar,
           link: [null]
         },
       ]
@@ -94,11 +210,21 @@ export const projects = {
   title: "Projects",
   cards: [
     {
+      title: " Layout Evolution",
+      description: "Keyboard layout generation via evolution selection algorithms.",
+      icons: [
+        {
+          icon: 'SiGithub',
+          link: ["https://github.com/Bradley-Hower/layout-evolution"],
+        },
+      ]
+    },
+    {
       title: " Leap the Wall",
       description: "Web app workaround to use the Baidu search engine, in English.",
       icons: [
         {
-          icon: faGithub,
+          icon: 'SiGithub',
           link: ["https://github.com/Bradley-Hower/leap-the-wall-frontend"],
         },
       ]
@@ -108,18 +234,38 @@ export const projects = {
       description: 'Rezzies is a collectible digital asset game targeted towards children. Composed of digital assets, they are limited to "go exploring" once per day to find fossils, or "Rezzies".',
       icons: [
         {
-          icon: faGithub,
+          icon: 'SiGithub',
           link: ["https://github.com/Bradley-Hower/rezzies"],
         },
       ]
     },
     {
-      title: " Prismatic Puzzle ",
+      title: " Prismatic Puzzle",
       description: "Team project. Based on the game Chromacube, we developed a Python application using the Pygame library.",
       icons: [
         {
-          icon: faGithub,
+          icon: 'SiGithub',
           link: ["https://github.com/Alpha-Code-Collective/prismatic-puzzle"],
+        },
+      ]
+    },
+    {
+      title: " Fragile Food",
+      description: "A simply UX site demo I created in early coursework.",
+      icons: [
+        {
+          icon: 'SiGithub',
+          link: ["https://github.com/Bradley-Hower/fragile-food"],
+        },
+      ]
+    },
+    {
+      title: " City Explorers",
+      description: "An API web application which pulls location data for any input query. Includes location's weather, movies, and restuarants.",
+      icons: [
+        {
+          icon: 'SiGithub',
+          link: ["https://github.com/Bradley-Hower/city-explorer"],
         },
       ]
     },
