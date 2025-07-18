@@ -12,3 +12,16 @@ export const Header = ({ seo }) => {
     </Head>
   )
 }
+
+export const HireHeader = ({ hireheader }) => {
+  return (
+    <Head>
+      <title>{hireheader.title}</title>
+      <meta name="description" content={hireheader.description} />
+      <meta property="og:title" content={hireheader.title} />
+      <meta property="og:description" content={hireheader.description} />
+      <meta property="og:image" content={hireheader.image} />
+      <meta property="og:type" content="website" />
+    </Head>
+  )
+}

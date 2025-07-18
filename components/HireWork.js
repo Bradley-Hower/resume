@@ -47,14 +47,14 @@ export const Card = ({ title, description, icons }) => {
             value.link && value.link[0] ? (
               <Link key={index} href={value.link[0]}>
                 <a target="_blank" rel="noreferrer">
-                  <h4 className="text-primary">
+                  <h4 className="text-primary fw-bold">
                     {IconComponent && <IconComponent className="icon-style mx-1" size={35} />}
                     {title}
                   </h4>
                 </a>
               </Link>
             ) : (
-              <h4 className="text-primary" key={index}>
+              <h4 className="text-primary fw-bold" key={index}>
                 {IconComponent && <IconComponent className="icon-style mx-1" size={35} />}
                 {title}
               </h4>
@@ -62,7 +62,7 @@ export const Card = ({ title, description, icons }) => {
           );
         })}
       </div>
-      <p className="text-dark">{description}</p>
+      <p className="text-dark fs-5">{description}</p>
     </div>
   );
 };
