@@ -30,15 +30,15 @@ export default function Home() {
       />
       <Programs
         title={offerings.title}
-        subtitle={offerings.subtitle}
         cards={offerings.cards}
         buttons={offerings.buttons}
+        checkboxes={offerings.checkboxes}
+        program_notes={offerings.program_notes}
       />
 
-      <Nav
+      <Footer
         links={navigation.links}
       />
-      <Footer />
     </Fragment>
   );
 }

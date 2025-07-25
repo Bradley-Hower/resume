@@ -170,7 +170,6 @@ export const hirework = {
 
 export const offerings = {
   title: "Highlighted Programs",
-  subtitle: "\nMost programs have a maximum Debt-To-Income limit of 45% — 50%. \n For the best terms, middle to upper—700 FICO scores is recommended. Dependent on program. \n Residency and nationality is not a limiter, with some exceptions.",
   buttons: [
     {
       title: "Apply ↗",
@@ -181,7 +180,7 @@ export const offerings = {
   cards: [
     {
       title: "FNMA",
-      description: "Conventional loan with great terms. Down payment as low as 3.5%.",
+      description: "Conventional loan with great terms. Down payment as low as 3%. Adjustable-Rate options available with down payment as low as 5%. Mortgage Insurance required for down payments less than 20%.",
       icons: [
         { icon: 'FaHome', link: [null] }
       ]
@@ -202,7 +201,7 @@ export const offerings = {
     },
     {
       title: "No Income Verification",
-      description: "Less hassle; ideal for self-employed individuals or those with non-traditional income sources. Maximum 80% Loan-To-Value Ratio and up to 12 months in reserves; 75% for investment properteies with 36 months of reserves.",
+      description: "Less hassle; ideal for self-employed individuals or those with non-traditional income sources. Maximum 80% Loan-To-Value; 75% for investment properteies. Reserves requirements to be met.",
       icons: [
         { icon: 'FaMoneyCheckAlt', link: [null] }
       ]
@@ -215,35 +214,46 @@ export const offerings = {
       ]
     },
     {
-      title: "DSCR",
-      description: "Investor-friendly loan — qualify based on rental property Cash Flow-to-Debt Ratio. Maximum 85% Loan-To-Value ratio.",
+      title: "Expanded",
+      description: 'Turn "Just Denied" to "Approved" with limits beyond typical mortgage guidelines.',
       icons: [
-        { icon: 'MdShowChart', link: [null] }
+        { icon: 'MdLandscape', link: [null] }
       ]
     },
     {
       title: "HELOC",
-      description: "Tap into home equity and get funds in as little as 10 days. Enjoy the added flexibility. Typically requires 20% to 30% in equity.",
+      description: "Tap into home equity and get funds in as little as 10 days. Enjoy the added flexibility that comes with a line of credit. Typically requires 20% to 30% in equity.",
       icons: [
         { icon: 'GiReceiveMoney', link: [null] }
       ]
     },
     {
-      title: "Interest-Only",
-      description: "Pay just interest for the first few years before transitioning to full payments—ideal for managing short-term cash flow or maximizing investment flexibility. Maximum 75% Loan-To-Value ratio. Speculative in nature with potential for payment shock when interest-only period ends.",
+      title: "DSCR",
+      description: "Investor-friendly loan — qualify based on rental property Cash Flow-to-Debt ratio. Maximum 85% Loan-To-Value ratio. Interest-only option available at 75% Loan-To-Value ratio.",
       icons: [
-        { icon: 'GiPayMoney', link: [null] }
+        { icon: 'MdShowChart', link: [null] }
       ]
     },
     {
       title: "Foreign National Investor",
-      description: "Specialized loan program for non-U.S. citizens who are non-residents. Interest-only option available. Maximum 70% Loan-To-Value ratio. Requires 12 months in reserves and banking relationship documentation.",
+      description: "Specialized loan program for non-U.S. citizens who are non-residents. Interest-only option available. Maximum 70% Loan-To-Value ratio. Requires 12 months in reserves and banking relationship documentation if no credit score.",
       icons: [
         { icon: 'MdPublic', link: [null] }
       ]
     },
   ],
-};
+  checkboxes: [
+    "Non-Warrantable Condominiums",
+    "Air BNBs",
+    "Non-permanent Resident Aliens, Foreign Nationals, & EAD holders",
+  ],
+  program_notes: [
+    "Most programs have a maximum Debt-To-Income limit of 45% — 50%.", 
+    "For the best terms, middle to upper—700 FICO scores are recommended. Dependent on program.",
+    "Interest-Only options are speculative in nature with potential for payment shock when interest-only period ends.",
+    "Residency and nationality is not a limiter, with some exceptions.",
+  ],
+  };
 
 
 

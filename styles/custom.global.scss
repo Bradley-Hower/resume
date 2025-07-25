@@ -152,20 +152,56 @@ a {
   min-height: calc(100vh - 152px)
 }
 
-.navbar-nav, .bh {
-  font-size: 20pt;
-}
 
-.py-3 {
-  width: 660px;
-}
+// .py-3 {
+//   width: 660px;
+// }
 
 .NMLS {
   color: rgb(202, 166, 47);
 }
 
-.program-subtitle {
+.program-checkboxes {
+  align-content: center;
+}
+
+.program-notes {
   white-space: pre-line;
   align-content: center;
-  padding: 0 24px;
+}
+
+.navbar-nav {
+  flex-wrap: wrap;
+}
+
+.nav-link {
+  white-space: nowrap;
+  text-decoration-line: underline;
+}
+
+// ul {
+//   list-style: none;
+//   padding-left: 0;
+// }
+
+// ul li:before {
+//   content: '✅ ';
+//   margin-right: 0.5em;
+// }
+
+
+
+.program-checkboxes ul {
+  list-style-type: none;
+  padding-left: 1.5em; /* match this with the ::before width */
+}
+
+.program-checkboxes ul li {
+  position: relative;
+}
+
+.program-checkboxes ul li::before {
+  content: "✅";
+  position: absolute;
+  left: -1.5em;
 }

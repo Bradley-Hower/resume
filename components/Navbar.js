@@ -7,13 +7,13 @@ export const Nav = ({ title, links }) => {
         <Link href="/">
           {/* <Image src={Logo} alt="Logo" width="36" height="36" className="vertical-align-middle" /> */}
           <a className="navbar-brand px-2">
-            <span className="bh">{title}</span>
+            <span className="bh display-6">{title}</span>
           </a>
         </Link>
         <div
           className={"navbar-collapse"}
         >
-          <div className="navbar-nav">
+          <div className="navbar-nav display-6">
             {links.map((value, index) => (
               <Link key={index} href={value.link} >
                 <a className="nav-link">{value.title}</a>
@@ -34,13 +34,13 @@ export const HireNav = ({ title, links }) => {
         <Link href="/hire">
           {/* <Image src={Logo} alt="Logo" width="36" height="36" className="vertical-align-middle" /> */}
           <a className="navbar-brand px-2">
-            <span className="bh">{title}</span>
+            <span className="bh display-6">{title}</span>
           </a>
         </Link>
         <div
           className={"navbar-collapse"}
         >
-          <div className="navbar-nav">
+          <div className="navbar-nav display-6">
             {links.map((value, index) => (
               <Link key={index} href={value.link} >
                 <a className="nav-link">{value.title}</a>

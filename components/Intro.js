@@ -12,8 +12,7 @@ export const Intro = ({ greeting, title, description, description2, image, butto
 						<h1 className="text-primary fw-bold display-3">{greeting}</h1>
 						<h1 className="fw-bold display-4">{title}</h1>
 						<h3 className="text-warning mt-4">{description2}</h3>
-						<br></br>
-						<h3 className="text-info display-5 py-5">{description}</h3>
+						<h3 className="text-info display-5 py-3">{description}</h3>
 
 					</div>
 					<div className="col-sm-6 text-center">
@@ -39,8 +38,7 @@ export const HireIntro = ({ greeting, title, description, description2, image, b
 						<h1 className="text-primary fw-bold display-3">{greeting}</h1>
 						<h1 className="fw-bold display-4">{title}</h1>
 						<h3 className="text-warning mt-4">{description2}</h3>
-						<br></br>
-						<h3 className="text-info display-5 py-5">{description}</h3>
+						<h3 className="text-info display-5 py-3">{description}</h3>
 
 					</div>
 					<div className="col-sm-6 text-center">

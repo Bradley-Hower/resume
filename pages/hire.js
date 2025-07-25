@@ -4,7 +4,7 @@ import { HireHeader } from '../components/Header';
 import { HireNav } from '../components/Navbar';
 import { HireIntro, HireAbout } from '../components/Intro';
 import { Skills } from '../components/HireWork';
-import { HireFooter } from '../components/Footer';
+import { Footer } from '../components/Footer';
 import { hireabout, hireintro, hirenavigation, HireTitle, hirework } from '../config/config';
 
 
@@ -35,10 +35,9 @@ export default function Home() {
         cards={hirework.cards}
       />
 
-      <HireNav
+      <Footer
         links={hirenavigation.links}
       />
-      <HireFooter />
     </Fragment>
   );
 }

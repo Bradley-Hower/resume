@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaGlobe, FaHome, FaMoneyCheckAlt, FaPiggyBank, FaBuilding } from "react-icons/fa";
-import { MdPublic, MdShowChart, MdApartment, MdMilitaryTech } from "react-icons/md";
+import { MdLandscape, MdPublic, MdShowChart, MdApartment, MdMilitaryTech } from "react-icons/md";
 import { GiDiamonds, GiReceiveMoney, GiPayMoney } from "react-icons/gi";
 import { TbSquareLetterM } from "react-icons/tb";
 import { SiDocusign } from "react-icons/si";
@@ -11,16 +11,16 @@ import { LuGraduationCap, LuBanknote } from "react-icons/lu";
 
 // Create a mapping object
 const iconMapping = {
-  FaGlobe, FaHome, FaBuilding, FaMoneyCheckAlt, FaPiggyBank, MdPublic, MdShowChart, MdApartment, MdMilitaryTech, GiDiamonds, GiReceiveMoney, GiPayMoney,
+   FaGlobe, FaHome, FaBuilding, FaMoneyCheckAlt, FaPiggyBank, MdLandscape, MdPublic, MdShowChart, MdApartment, MdMilitaryTech, GiDiamonds, GiReceiveMoney, GiPayMoney,
   TbSquareLetterM, SiDocusign, SlChartLine, SlSpeedometer, LuGraduationCap, LuBanknote
 };
 
 import Link from 'next/link'
 
-export const Programs = ({ title, subtitle, buttons, cards }) => {
+export const Programs = ({ title, checkboxes, program_notes, buttons, cards }) => {
 	return (
 		<div id="programs" className="bg-secondary py-5 px-5">
-			<div className="container">
+			<div className="container align-items-center">
 				<h1 className="text-primary fw-bold">{title}</h1>
         <div className="text-center p-1">
               {buttons.map((value, index) => (
@@ -39,13 +39,31 @@ export const Programs = ({ title, subtitle, buttons, cards }) => {
 						<Card
 							key={index}
 							title={value.title}
-							description={value.description}
-							link={value.link} 							
+							description={value.description}					
 							icons={value.icons} />
 					))}
 				</div>
-        <h4 className="program-subtitle">{subtitle}</h4>
-			</div>
+        <br></br>
+				<div className="program-checkboxes text-dark fs-2 d-flex flex-row flex-wrap justify-content-center">
+          <ul>
+            {checkboxes.map((text, index) => (
+              <li key={index} >
+                  {text}
+              </li>
+            ))}
+          </ul>
+        </div>
+        <br></br>
+				<div className="program-notes text-dark fs-4 d-flex flex-row flex-wrap justify-content-center">
+          <ul>
+            {program_notes.map((text, index) => (
+              <li key={index} >
+                  {text}
+              </li>
+            ))}
+          </ul>
+        </div>
+       </div>
 		</div>
 	);
 }
