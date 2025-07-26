@@ -22,10 +22,9 @@ export default function Home() {
         <h1>Nothing to see here, yet.</h1>
         </div>
       </div>
-      <Nav
+      <Footer
         links={navigation.links}
       />
-      <Footer />
     </Fragment>
   );
 }

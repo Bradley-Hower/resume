@@ -1,7 +1,6 @@
 import React, { Fragment } from 'react';
 import getConfig from 'next/config'
 import { HireNav } from '../components/Navbar';
-import { HireFooter } from '../components/Footer';
 import { Resume } from '../components/Resume';
 import { hirenavigation, resume } from '../config/config';
 
@@ -19,8 +18,6 @@ export default function Home() {
         title={resume.title}
         link={resume.link}
       />
-
-      <HireFooter />
     </Fragment>
   );
 }

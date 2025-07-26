@@ -4,7 +4,7 @@ import { MdLandscape, MdPublic, MdShowChart, MdApartment, MdMilitaryTech } from 
 import { GiDiamonds, GiReceiveMoney, GiPayMoney } from "react-icons/gi";
 import { TbSquareLetterM } from "react-icons/tb";
 import { SiDocusign } from "react-icons/si";
-import { SlSpeedometer, SlChartLine } from "react-icons/sl";
+import { SlSpeedometer } from "react-icons/sl";
 import { LuGraduationCap, LuBanknote } from "react-icons/lu";
 
 
@@ -12,7 +12,7 @@ import { LuGraduationCap, LuBanknote } from "react-icons/lu";
 // Create a mapping object
 const iconMapping = {
    FaGlobe, FaHome, FaBuilding, FaMoneyCheckAlt, FaPiggyBank, MdLandscape, MdPublic, MdShowChart, MdApartment, MdMilitaryTech, GiDiamonds, GiReceiveMoney, GiPayMoney,
-  TbSquareLetterM, SiDocusign, SlChartLine, SlSpeedometer, LuGraduationCap, LuBanknote
+  TbSquareLetterM, SiDocusign, SlSpeedometer, LuGraduationCap, LuBanknote
 };
 
 import Link from 'next/link'

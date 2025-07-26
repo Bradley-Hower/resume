@@ -12,10 +12,6 @@ export const hirenavigation = {
       title: "LinkedIn",
       link: "https://www.linkedin.com/in/bradley-m-hower/",
     },
-    {
-      title: "Blog",
-      link: "/blog",
-    }
   ],
 }
 
