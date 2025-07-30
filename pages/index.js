@@ -30,6 +30,8 @@ export default function Home() {
       />
       <Programs
         title={offerings.title}
+        subtitle={offerings.subtitle}
+        notice={offerings.notice}
         cards={offerings.cards}
         buttons={offerings.buttons}
         checkboxes={offerings.checkboxes}

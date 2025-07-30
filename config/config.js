@@ -20,7 +20,7 @@ export const navigation = {
   links: [
     {
       title: "Business Card",
-      link: "https://bhower.my.canva.site/",
+      link: "/Bradley_Hower_Mortgage_Broker.png",
     },
     {
       title: "LinkedIn",
@@ -63,7 +63,7 @@ export const intro = {
   buttons: [
     {
       title: "Business Card ↗",
-      link: "https://bhower.my.canva.site/",
+      link: "/Bradley_Hower_Mortgage_Broker.png",
       isPrimary: false,
     },
   ],
@@ -166,6 +166,8 @@ export const hirework = {
 
 export const offerings = {
   title: "Highlighted Programs",
+  subtitle: "Over 150 lender partners. Giving buyers options that other originators can’t offer.",
+  notice: "Programs and program details are subject to change. Sometimes for the better! Contact me to discuss the latest and best terms for you.",
   buttons: [
     {
       title: "Apply ↗",
@@ -197,42 +199,42 @@ export const offerings = {
     },
     {
       title: "No Income Verification",
-      description: "Less hassle; ideal for self-employed individuals or those with non-traditional income sources. Maximum 80% Loan-To-Value; 75% for investment properteies. Reserves requirements to be met.",
+      description: "Less hassle; ideal for self-employed individuals or those with non-traditional income sources. Higher reserves requirement to be met.",
       icons: [
         { icon: 'FaMoneyCheckAlt', link: [null] }
       ]
     },
     {
+      title: "Alternative Documentation",
+      description: "Eliminates the need for tax returns. Less restrictive and problematic. Best suited for self-employed borrowers with varrying income history.",
+      icons: [
+        { icon: 'MdDescription', link: [null] }
+      ]
+    },
+    {
       title: "Low Credit Score",
-      description: "Designed for buyers with lower credit scores — options available for FICOs as low as 550.",
+      description: "A loan designed for buyers with lower credit scores — options available for FICOs as low as 500.",
       icons: [
         { icon: 'FaPiggyBank', link: [null] }
       ]
     },
     {
-      title: "Expanded",
-      description: 'Turn "Just Denied" to "Approved" with limits beyond typical mortgage guidelines.',
-      icons: [
-        { icon: 'MdLandscape', link: [null] }
-      ]
-    },
-    {
       title: "HELOC",
-      description: "Tap into home equity and get funds in as little as 10 days. Enjoy the added flexibility that comes with a line of credit. Typically requires 20% to 30% in equity.",
+      description: "Tap into home equity and get funds in 5 to 10 days. Enjoy the added flexibility that comes with a line of credit.",
       icons: [
         { icon: 'GiReceiveMoney', link: [null] }
       ]
     },
     {
       title: "DSCR",
-      description: "Investor-friendly loan — qualify based on rental property Cash Flow-to-Debt ratio. Maximum 85% Loan-To-Value ratio. Interest-only option available at 75% Loan-To-Value ratio.",
+      description: "Investor-friendly loan — qualify based on rental property Cash Flow-to-Debt ratio. Interest-only option available.",
       icons: [
         { icon: 'MdShowChart', link: [null] }
       ]
     },
     {
       title: "Foreign National Investor",
-      description: "Specialized loan program for non-U.S. citizens who are non-residents. Interest-only option available. Maximum 70% Loan-To-Value ratio. Requires 12 months in reserves and banking relationship documentation if no credit score.",
+      description: "Specialized loan program for non-U.S. citizens who are non-residents. Interest-only option available. Credit score or proof of banking relationship required.",
       icons: [
         { icon: 'MdPublic', link: [null] }
       ]
@@ -241,12 +243,12 @@ export const offerings = {
   checkboxes: [
     "Non-Warrantable Condominiums",
     "Air BNBs",
-    "Non-permanent Resident Aliens, Foreign Nationals, & EAD holders",
+    "Non-permanent Resident Aliens and Foreign Nationals",
   ],
   program_notes: [
     "Most programs have a maximum Debt-To-Income limit of 45% — 50%.", 
     "For the best terms, middle to upper—700 FICO scores are recommended. Dependent on program.",
-    "Interest-Only options are speculative in nature with potential for payment shock when interest-only period ends.",
+    "Interest-only options are speculative in nature with potential for payment shock when interest-only period ends.",
     "Residency and nationality is not a limiter, with some exceptions.",
   ],
   };
@@ -257,8 +259,8 @@ export const offerings = {
 // SEARCH ENGINE 
 export const SEO = {
   // 50 - 60 char  
-  title: "Bradley Hower",
-  description: "Mortgage Professional — Keen home financing.",
+  title: "Bradley Hower | Mortgage Professional",
+  description: "Keen home loan financing. Located on the Eastside. Specializing in serving clients living in the Seattle and Bellevue areas seeking to invest in real estate.",
   image: profile.src,
 }
 
@@ -267,6 +269,6 @@ export const SEO = {
 export const HireTitle = {
   // 50 - 60 char  
   title: "Bradley Hower",
-  description: "Mortgage Professional  — Keen home financing.Strong ability to take ownership while working within a team to solve problems.",
+  description: "Mortgage Professional  — Keen home loan financing. Strong ability to take ownership while working within a team to solve problems.",
   image: profile.src,
 }
