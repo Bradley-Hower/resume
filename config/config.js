@@ -56,7 +56,7 @@ export const hireintro = {
 
 export const intro = {
   greeting: "Bradley Hower",
-  title: "Mortgage Professional",
+  title: "Mortgage Broker",
   description: "Exceptional results.",
   description2: "NMLS: 1810189",
   image: profile.src,
@@ -80,7 +80,7 @@ export const hireabout = {
 export const about = {
   title: "About",
   description: [
-    'Seven plus years of experience in the mortgage industry. Passionate about maximizing outcomes and prepared to accept new challenges. Motivated by the joy of helping others succeed and creating value.',
+    'Keen home loan financing. Located on the Eastside. Specializing in serving clients living in the Seattle and Bellevue areas seeking to invest in residential real estate. Seven plus years of experience in the mortgage industry. Passionate about maximizing outcomes and prepared to accept new challenges. Motivated by the joy of helping others succeed and creating value.',
   ],
 }
 
@@ -259,8 +259,8 @@ export const offerings = {
 // SEARCH ENGINE 
 export const SEO = {
   // 50 - 60 char  
-  title: "Bradley Hower | Mortgage Professional",
-  description: "Keen home loan financing. Located on the Eastside. Specializing in serving clients living in the Seattle and Bellevue areas seeking to invest in real estate.",
+  title: "Bradley Hower | Mortgage Broker",
+  description: "Keen home loan financing. Located on the Eastside. Specializing in serving clients living in the Seattle and Bellevue areas seeking to invest in residential real estate.",
   image: profile.src,
 }
 
