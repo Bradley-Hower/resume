@@ -1,5 +1,7 @@
 
 import profile from './profile.png';
+import WCLlogo from './WCLlogo.png';
+import EqualHousingLogo from './EqualHousingLogo.png';
 
 export const hirenavigation = {
   name: "Hire BH",
@@ -58,7 +60,8 @@ export const intro = {
   greeting: "Bradley Hower",
   title: "Mortgage Broker",
   description: "Exceptional results.",
-  description2: "NMLS: 1810189",
+  licenses: "NMLS: 1810189",
+  endorsements: "Licensed in the state of Washington.",
   image: profile.src,
   buttons: [
     {
@@ -67,6 +70,18 @@ export const intro = {
       isPrimary: false,
     },
   ],
+  logo: WCLlogo.src,
+  companylicenses: "NMLS: 1566096 | DRE 02022356",
+  companylink: [
+    {
+      title: "Company Site ↗",
+      link: "https://westcapitallending.com/",
+      isPrimary: false,
+    },
+  ],
+  equalhousinglogo: EqualHousingLogo.src,
+  nmlslink: "https://nmlsconsumeraccess.org/",
+  WAlink: "https://westcapitallending.com/licensing/",
 }
 
 export const hireabout = {
@@ -76,11 +91,10 @@ export const hireabout = {
   ],
 }
 
-
 export const about = {
   title: "About",
   description: [
-    'Keen home loan financing. Located on the Eastside. Specializing in serving clients living in the Seattle and Bellevue areas seeking to invest in residential real estate. Seven plus years of experience in the mortgage industry. Passionate about maximizing outcomes and prepared to accept new challenges. Motivated by the joy of helping others succeed and creating value.',
+    'Located on the Eastside, specializing in serving clients living in the Seattle and Bellevue areas seeking to invest in residential real estate.',
   ],
 }
 

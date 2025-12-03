@@ -20,8 +20,16 @@ export default function Home() {
         greeting={intro.greeting}      
         title={intro.title}
         description={intro.description}
-        description2={intro.description2}
+        licenses={intro.licenses}
+        endorsements={intro.endorsements}
         image={intro.image}
+        logo={intro.logo}
+        companylink={intro.companylink}
+        companylicenses={intro.companylicenses}
+        equalhousinglogo={intro.equalhousinglogo}
+        nmlslink={intro.nmlslink}
+        WAlink={intro.WAlink}
+        buttons={intro.buttons}
       />
       <About
         title={about.title}
