@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 const { publicRuntimeConfig } = getConfig()
 
-export const Intro = ({ greeting, title, description, licenses, endorsements, image, logo, companylink, companylicensesNMLS, companylicensesDRE, equalhousinglogo, nmlslink, WAlink, buttons }) => {
+export const Intro = ({ greeting, title, description, licensesNMLS, licensesDRE, endorsements, image, logo, companylink, companylicensesNMLS, companylicensesDRE, equalhousinglogo, nmlslink, WAlink, buttons }) => {
 	return (
 		<div id="intro" className="bg-secondary py-2 px-5">
 			<div className="container">
@@ -11,7 +11,14 @@ export const Intro = ({ greeting, title, description, licenses, endorsements, im
 					<div className="col-sm-6">
 						<h1 className="text-primary fw-bold display-3">{greeting}</h1>
 						<h1 className="fw-bold display-4">{title}</h1>
-						<h3 className="text-warning mt-4">{licenses}</h3>
+						<div className="row align-items-center mt-3">
+							<div className="col-auto">
+								<h3 className="text-warning mt-1">{licensesNMLS}</h3>
+							</div>
+							<div className="col-auto">
+								<h3 className="text-warning mt-1">{licensesDRE}</h3>
+							</div>
+						</div>
 						<h3 className="text-warning mt-1">{endorsements}</h3>
 						<div className="row align-items-center g-3 mt-5">
 							<div className="col-auto">
@@ -33,12 +40,12 @@ export const Intro = ({ greeting, title, description, licenses, endorsements, im
 								))}
 							</div>
 						</div>
-						<div className="row align-items-left mt-3">
+						<div className="row align-items-center mt-3">
 							<div className="col-auto">
 								<h3 className="text-warning mt-1">{companylicensesNMLS}</h3>
 							</div>
 							<div className="col-auto">
-								<h3 className="text-warning mt-2">{companylicensesDRE}</h3>
+								<h3 className="text-warning mt-1">{companylicensesDRE}</h3>
 							</div>
 						</div>
 
@@ -55,7 +62,7 @@ export const Intro = ({ greeting, title, description, licenses, endorsements, im
 				</div>
 
 			</div>
-			<div className="container mt-3">
+			<div className="container mt-4">
 				<div className="row align-items-center g-3 justify-content-center">
 					<div className="col-auto text-end">
 						<img

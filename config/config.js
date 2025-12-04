@@ -60,7 +60,8 @@ export const intro = {
   greeting: "Bradley Hower",
   title: "Mortgage Broker",
   description: "Exceptional results.",
-  licenses: "NMLS: 1810189",
+  licensesNMLS: "NMLS 1810189",
+  licensesDRE: "NMLS",
   endorsements: "Licensed in WA",
   image: profile.src,
   buttons: [

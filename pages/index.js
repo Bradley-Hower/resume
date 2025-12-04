@@ -20,7 +20,8 @@ export default function Home() {
         greeting={intro.greeting}      
         title={intro.title}
         description={intro.description}
-        licenses={intro.licenses}
+        licensesNMLS={intro.licensesNMLS}
+        licensesDRE={intro.licensesDRE}
         endorsements={intro.endorsements}
         image={intro.image}
         logo={intro.logo}
