@@ -61,7 +61,7 @@ export const intro = {
   title: "Mortgage Broker",
   description: "Exceptional results.",
   licenses: "NMLS: 1810189",
-  endorsements: "Licensed in the state of Washington.",
+  endorsements: "Licensed in WA",
   image: profile.src,
   buttons: [
     {
@@ -71,7 +71,8 @@ export const intro = {
     },
   ],
   logo: WCLlogo.src,
-  companylicenses: "NMLS: 1566096 | DRE 02022356",
+  companylicensesNMLS: "NMLS 1566096",
+  companylicensesDRE: "DRE 02022356",
   companylink: [
     {
       title: "Company Site ↗",

@@ -25,7 +25,8 @@ export default function Home() {
         image={intro.image}
         logo={intro.logo}
         companylink={intro.companylink}
-        companylicenses={intro.companylicenses}
+        companylicensesNMLS={intro.companylicensesNMLS}
+        companylicensesDRE={intro.companylicensesDRE}
         equalhousinglogo={intro.equalhousinglogo}
         nmlslink={intro.nmlslink}
         WAlink={intro.WAlink}
