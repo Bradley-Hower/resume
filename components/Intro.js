@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 const { publicRuntimeConfig } = getConfig()
 
-export const Intro = ({ greeting, title, description, licensesNMLS, licensesDRE, endorsements, image, logo, companylink, companylicensesNMLS, companylicensesDRE, equalhousinglogo, nmlslink, WAlink, buttons }) => {
+export const Intro = ({ greeting, title, description, licensesNMLS, licensesDRE, endorsements, image, logo, companylink, companylicensesNMLS, companylicensesDRE, equalhousinglogo, nmlslink, WAlink, TXlink, buttons }) => {
 	return (
 		<div id="intro" className="bg-secondary py-2 px-5">
 			<div className="container">
@@ -74,6 +74,7 @@ export const Intro = ({ greeting, title, description, licensesNMLS, licensesDRE,
 					<div className="col-auto text-wrap" >
 						<h3 className="text-info fs-5">{nmlslink}</h3>
 						<h3 className="text-info fs-5">{WAlink}</h3>
+						<h3 className="text-info fs-5">{TXlink}</h3>
 					</div>
 				</div>
 			</div>
@@ -108,11 +109,13 @@ export const HireIntro = ({ greeting, title, description, description2, image, b
 	);
 }
 
-export const About = ({ title, description, buttons }) => {
+export const About = ({ title, slogan, slogan2, description, buttons }) => {
 	return (
 		<div id="about" className="bg-light py-5 px-5">
 			<div className="container">
 				<h1 className="text-primary fw-bold">{title}</h1>
+				<h3 className="text-warning mt-1 fw-bold display-6">{slogan}</h3>
+				<h3 className="text-warning fst-italic mt-1">{slogan2}</h3>
 				<h3 className="">{description}</h3>
 			</div>
 			<div className="text-center p-2">

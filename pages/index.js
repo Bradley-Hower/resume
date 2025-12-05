@@ -31,10 +31,13 @@ export default function Home() {
         equalhousinglogo={intro.equalhousinglogo}
         nmlslink={intro.nmlslink}
         WAlink={intro.WAlink}
+        TXlink={intro.TXlink}
         buttons={intro.buttons}
       />
       <About
         title={about.title}
+        slogan={about.slogan}
+        slogan2={about.slogan2}
         description={about.description}
         buttons={intro.buttons}
       />

@@ -61,7 +61,7 @@ export const intro = {
   title: "Mortgage Broker",
   description: "Exceptional results.",
   licensesNMLS: "NMLS 1810189",
-  licensesDRE: "NMLS",
+  licensesDRE: "",
   endorsements: "Licensed in WA",
   image: profile.src,
   buttons: [
@@ -84,19 +84,22 @@ export const intro = {
   equalhousinglogo: EqualHousingLogo.src,
   nmlslink: "https://nmlsconsumeraccess.org/",
   WAlink: "https://westcapitallending.com/licensing/",
+  TXlink: "https://westcapitallending.com/licensing/texas-complaint/",
+}
+
+export const about = {
+  title: "About",
+  slogan: "Hower Home Loans",
+  slogan2: "Financing With Intelligence",
+  description: [
+    'Located on the Eastside, specializing in serving clients living in the Seattle and Bellevue areas seeking to invest in residential and small multifamily real estate.',
+  ],
 }
 
 export const hireabout = {
   title: "About",
   description: [
     'Seven plus years of experience in the mortgage industry, three years as a licensed Loan Officer Assistant. Passionate about maximizing outcomes and prepared to accept new challenges. Motivated by the joy of helping others succeed and creating value.',
-  ],
-}
-
-export const about = {
-  title: "About",
-  description: [
-    'Located on the Eastside, specializing in serving clients living in the Seattle and Bellevue areas seeking to invest in residential real estate.',
   ],
 }
 
