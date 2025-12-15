@@ -1,9 +1,10 @@
 import React, { Fragment } from 'react';
 import { Nav } from '../components/Navbar';
+import { AdHook } from '../components/AdHook';
 import { Intro, About } from '../components/Intro';
 import { Programs } from '../components/Offerings';
 import { Footer } from '../components/Footer';
-import { about, intro, navigation, SEO, offerings } from '../config/config';
+import { adhook, about, intro, navigation, SEO, offerings } from '../config/config';
 import { Header } from '../components/Header';
 
 
@@ -15,6 +16,12 @@ export default function Home() {
       <Nav
         title={navigation.name}
         links={navigation.links}
+      />
+      <AdHook 
+        image={adhook.image}
+        title={adhook.title}
+        description={adhook.description}
+        description2={adhook.description2}
       />
       <Intro
         greeting={intro.greeting}      
@@ -28,6 +35,7 @@ export default function Home() {
         companylink={intro.companylink}
         companylicensesNMLS={intro.companylicensesNMLS}
         companylicensesDRE={intro.companylicensesDRE}
+        reviews={intro.reviews}
         equalhousinglogo={intro.equalhousinglogo}
         nmlslink={intro.nmlslink}
         WAlink={intro.WAlink}

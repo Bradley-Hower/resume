@@ -7,7 +7,7 @@ export const Nav = ({ title, links }) => {
         <Link href="/">
           {/* <Image src={Logo} alt="Logo" width="36" height="36" className="vertical-align-middle" /> */}
           <a className="navbar-brand px-2">
-            <span className="bh display-6">{title}</span>
+            <span className="bh text-warning fw-bold display-5">{title}</span>
           </a>
         </Link>
         <div

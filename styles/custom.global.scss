@@ -17,12 +17,16 @@
 $tertiary-font: #7393ca;
 // $inverted-font: #FFFFFF;
 
-// bootstrap overrides 
-$primary: #3974d8;
+// bootstrap overrides
+$primary: #2e63be;
 $secondary: #ffffff;
 $info: #555555;
 $light: rgb(255, 251, 240);
 $warning: rgb(199, 161, 56);
+
+.bh, .name {
+  font-family: 'Kozuka';
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;700&display=swap');
 $font-family-sans-serif: -apple-system, 'Barlow', sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";

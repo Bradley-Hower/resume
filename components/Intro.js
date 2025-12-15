@@ -3,23 +3,23 @@ import Link from 'next/link'
 
 const { publicRuntimeConfig } = getConfig()
 
-export const Intro = ({ greeting, title, description, licensesNMLS, licensesDRE, endorsements, image, logo, companylink, companylicensesNMLS, companylicensesDRE, equalhousinglogo, nmlslink, WAlink, TXlink, buttons }) => {
+export const Intro = ({ greeting, title, licensesNMLS, licensesDRE, endorsements, image, logo, companylink, reviews, companylicensesNMLS, companylicensesDRE, equalhousinglogo, nmlslink, WAlink, TXlink, buttons }) => {
 	return (
 		<div id="intro" className="bg-secondary py-2 px-5">
 			<div className="container">
 				<div className=" row align-items-center g-5">
 					<div className="col-sm-6">
-						<h1 className="text-primary fw-bold display-3">{greeting}</h1>
+						<h1 className="name text-warning fw-bold display-3">{greeting}</h1>
 						<h1 className="fw-bold display-4">{title}</h1>
 						<div className="row align-items-center mt-3">
 							<div className="col-auto">
-								<h3 className="text-warning mt-1">{licensesNMLS}</h3>
+								<h3 className="text-primary mt-1">{licensesNMLS}</h3>
 							</div>
 							<div className="col-auto">
-								<h3 className="text-warning mt-1">{licensesDRE}</h3>
+								<h3 className="text-primary mt-1">{licensesDRE}</h3>
 							</div>
 						</div>
-						<h3 className="text-warning mt-1">{endorsements}</h3>
+						<h3 className="text-primary mt-1">{endorsements}</h3>
 						<div className="row align-items-center g-3 mt-5">
 							<div className="col-auto">
 								<img
@@ -39,13 +39,19 @@ export const Intro = ({ greeting, title, description, licensesNMLS, licensesDRE,
 										</Link>
 								))}
 							</div>
+							<div className="row align-items-start mt-3">
+								<img
+									className="img-fluid" src={reviews}
+									alt="Company Reviews"
+								/>
+							</div>
 						</div>
 						<div className="row align-items-center mt-3">
 							<div className="col-auto">
-								<h3 className="text-warning mt-1">{companylicensesNMLS}</h3>
+								<h3 className="text-primary mt-1">{companylicensesNMLS}</h3>
 							</div>
 							<div className="col-auto">
-								<h3 className="text-warning mt-1">{companylicensesDRE}</h3>
+								<h3 className="text-primary mt-1">{companylicensesDRE}</h3>
 							</div>
 						</div>
 

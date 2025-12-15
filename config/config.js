@@ -1,6 +1,8 @@
 
 import profile from './profile.png';
+import ad from './adhook.png';
 import WCLlogo from './WCLlogo.png';
+import WCLReviews from './WCLReviews.png';
 import EqualHousingLogo from './EqualHousingLogo.png';
 
 export const hirenavigation = {
@@ -35,6 +37,13 @@ export const navigation = {
   ],
 }
 
+export const adhook = {
+  image: ad.src,
+  title: "FREE",
+  description: "Loan Estimate Review",
+  description2: "No Obligation. No Cost.",
+}
+
 export const resume = {
   title: "Resume",
   link: "/resume.pdf",
@@ -59,9 +68,8 @@ export const hireintro = {
 export const intro = {
   greeting: "Bradley Hower",
   title: "Mortgage Broker",
-  description: "Exceptional results.",
   licensesNMLS: "NMLS 1810189",
-  licensesDRE: "",
+  licensesDRE: "DRE 02386284",
   endorsements: "Licensed in WA",
   image: profile.src,
   buttons: [
@@ -72,6 +80,7 @@ export const intro = {
     },
   ],
   logo: WCLlogo.src,
+  reviews: WCLReviews.src,
   companylicensesNMLS: "NMLS 1566096",
   companylicensesDRE: "DRE 02022356",
   companylink: [
