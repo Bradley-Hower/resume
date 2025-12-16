@@ -40,10 +40,12 @@ export const Intro = ({ greeting, title, licensesNMLS, licensesDRE, endorsements
 								))}
 							</div>
 							<div className="row align-items-start mt-3">
-								<img
-									className="img-fluid" src={reviews}
-									alt="Company Reviews"
-								/>
+								<div className="col-auto">
+									<img
+										className="img-fluid" width="400" src={reviews}
+										alt="Company Reviews"
+									/>
+								</div>
 							</div>
 						</div>
 						<div className="row align-items-center mt-3">
