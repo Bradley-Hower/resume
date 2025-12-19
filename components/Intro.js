@@ -41,10 +41,15 @@ export const Intro = ({ greeting, title, licensesNMLS, licensesDRE, endorsements
 							</div>
 							<div className="row align-items-start mt-3">
 								<div className="col-auto">
-									<img
-										className="img-fluid" width="400" src={reviews}
-										alt="Company Reviews"
-									/>
+									<Link href="https://maps.app.goo.gl/PdVQH25HNa3jxLpb8">
+										<a target="_blank" rel="noreferrer" >
+											<img
+												className="img-fluid" width="400" src={reviews}
+												alt="Company Reviews"
+											/>
+										</a>
+										</Link>
+
 								</div>
 							</div>
 						</div>
